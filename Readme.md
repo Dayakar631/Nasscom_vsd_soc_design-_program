@@ -3,9 +3,9 @@
 ## Topics Covered
 
 1. [**Day 1 - Inception of Open-Source EDA, OpenLANE, and Sky130 PDK**](#day-1---inception-of-open-source-eda-openlane-and-sky130-pdk)
-2. [**How to Talk to Computers**](#how-to-talk-to-computers)
-3. [**SoC Design and OpenLANE**](#soc-design-and-openlane)
-4. [**Getting Familiar with Open-Source EDA Tools**](#getting-familiar-with-open-source-eda-tools)
+2. [***How to Talk to Computers***](#how-to-talk-to-computers)
+3. [***SoC Design and OpenLANE***](#soc-design-and-openlane)
+4. [***Getting Familiar with Open-Source EDA Tools***](#getting-familiar-with-open-source-eda-tools)
 
 ---
 
