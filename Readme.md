@@ -26,6 +26,7 @@
 Arduino Board:- This is an arduino microcontroller board. The encircled area shows the chip(microprocessor) which is interfaced with other components of the board. The designing of this chip from abstract level all the way down to the fabrication is done by RTL to GDSll flow.Arduino consists of both a physical programmable circuit board (often referred to as a microcontroller) and a piece of software, or IDE (Integrated Development Environment) that runs on the computer, used to write and upload computer code to the physical board.
 ![QFN-48 Package](C:/Users/SAI/Pictures/Screenshots/Screenshot%202024-10-05%20001356.png)
 
+
 ## Introduction to RISC-V
 (Provide content here...)
 
