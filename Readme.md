@@ -3,64 +3,154 @@
 ## Topics Covered
 
 1. [**Day 1 - Inception of Open-Source EDA, OpenLANE, and Sky130 PDK**](#day-1---inception-of-open-source-eda-openlane-and-sky130-pdk)
-2. [**How to Talk to Computers?**](#how-to-talk-to-computers)
+2. [**How to Talk to Computers**](#how-to-talk-to-computers)
 3. [**Introduction to QFN-48 Package: Chip, Pads, Core, Die, and IPs**](#introduction-to-qfn-48-package-chip-pads-core-die-and-ips)
-4. [**Getting Started with RISC-V**](#getting-started-with-risc-v)
-5. [**Transitioning from Software to Hardware**](#transitioning-from-software-to-hardware)
-6. [**SoC Design Principles and OpenLANE Tools**](#soc-design-principles-and-openlane-tools)
-7. [**Exploring the Components of Open-Source Digital ASIC Design**](#exploring-the-components-of-open-source-digital-asic-design)
-8. [**Simplified RTL-to-GDS Flow Overview**](#simplified-rtl-to-gds-flow-overview)
+4. [**Introduction to RISC-V**](#introduction-to-risc-v)
+5. [**From Software Applications to Hardware**](#from-software-applications-to-hardware)
+6. [**SoC Design and OpenLANE**](#soc-design-and-openlane)
+7. [**Introduction to All Components of Open-Source Digital ASIC Design**](#introduction-to-all-components-of-open-source-digital-asic-design)
+8. [**Simplified RTL2GDS Flow**](#simplified-rtl2gds-flow)
 9. [**Introduction to OpenLANE and Strive Chipsets**](#introduction-to-openlane-and-strive-chipsets)
-10. [**Detailed Walkthrough of OpenLANE ASIC Design Flow**](#detailed-walkthrough-of-openlane-asic-design-flow)
+10. [**Introduction to OpenLANE Detailed ASIC Design Flow**](#introduction-to-openlane-detailed-asic-design-flow)
+11. [**Getting Familiar with Open-Source EDA Tools**](#getting-familiar-with-open-source-eda-tools)
+12. [**Detailed Overview of the OpenLANE Directory Structure**](#detailed-overview-of-the-openlane-directory-structure)
+13. [**Design Preparation Step**](#design-preparation-step)
+14. [**Reviewing Files After Design Prep and Running Synthesis**](#reviewing-files-after-design-prep-and-running-synthesis)
+15. [**OpenLANE Project Git Link Description**](#openlane-project-git-link-description)
+16. [**Steps to Characterize Synthesis Results**](#steps-to-characterize-synthesis-results)
 
 ---
 
 ### Day 1 - Inception of Open-Source EDA, OpenLANE, and Sky130 PDK
-Detailed insights into the history and creation of open-source EDA tools like OpenLANE and the Sky130 Process Design Kit (PDK).
+- Overview of open-source Electronic Design Automation (EDA) tools.
+- Introduction to OpenLANE, a toolchain for digital design.
+- Sky130 PDK and its integration with open-source tools.
 
 ---
 
-### How to Talk to Computers?
-An exploration of how digital systems communicate with computers, focusing on interfacing techniques and the flow of information between hardware and software.
+### How to Talk to Computers
+- How computers interpret and execute instructions.
+- Techniques for hardware-software communication.
+- Fundamentals of digital logic and binary systems.
 
 ---
 
 ### Introduction to QFN-48 Package: Chip, Pads, Core, Die, and IPs
-A detailed look at the QFN-48 package, including the roles of the chip, pads, core, die, and integrated IPs.
+- **QFN-48 Package**: Overview of this chip packaging technology.
+- **Chip**: Internal structure and components.
+- **Pads**: Electrical connection points.
+- **Core and Die**: What they are and their significance in chip design.
+- **IPs**: Intellectual properties and their role in SoC design.
 
 ---
 
-### Getting Started with RISC-V
-An overview of the RISC-V architecture, explaining its role in open-source hardware development and modern SoC design.
+### Introduction to RISC-V
+- **RISC-V Architecture**: A brief introduction to this open-source instruction set architecture.
+- **Advantages**: Why RISC-V is gaining popularity.
+- **Usage**: How RISC-V is utilized in modern hardware design.
 
 ---
 
-### Transitioning from Software to Hardware
-How software applications are implemented in hardware, focusing on the key steps and tools involved in turning code into physical circuits.
+### From Software Applications to Hardware
+- **Conversion Process**: How software applications are translated into hardware components.
+- **Steps Involved**: Compilation, logic synthesis, and implementation in hardware.
+- **Challenges**: Common issues during software-to-hardware transitions.
 
 ---
 
-### SoC Design Principles and OpenLANE Tools
-A discussion on the basic principles of System-on-Chip (SoC) design, and how OpenLANE supports these designs in an open-source environment.
+### SoC Design and OpenLANE
+- **SoC Design**: The process of designing a System on Chip (SoC).
+- **OpenLANE**: Role of OpenLANE in facilitating open-source SoC designs.
+- **EDA Workflow**: A step-by-step guide from RTL to physical design.
 
 ---
 
-### Exploring the Components of Open-Source Digital ASIC Design
-An in-depth look at the main components involved in designing an open-source digital ASIC, including tools, techniques, and workflows.
+### Introduction to All Components of Open-Source Digital ASIC Design
+- **Digital ASIC Design Flow**: From specification to GDSII.
+- **Open-Source Tools**: Available tools for each step of the flow.
+- **Challenges and Advantages**: Considerations in using open-source tools.
 
 ---
 
-### Simplified RTL-to-GDS Flow Overview
-A simplified explanation of the RTL-to-GDSII flow, covering how Register-Transfer Level (RTL) designs are transformed into a final chip layout for fabrication.
+### Simplified RTL2GDS Flow
+- **RTL**: Register Transfer Level, the starting point for design.
+- **GDS**: The final layout used for chip fabrication.
+- **Flow Steps**:
+  - Synthesis
+  - Place and Route (P&R)
+  - Verification
 
 ---
 
 ### Introduction to OpenLANE and Strive Chipsets
-An introduction to the OpenLANE design flow and Strive chipsets, providing insights into how they support modern SoC designs.
+- **OpenLANE**: Overview of the toolchain.
+- **Strive Chipsets**: Use cases and significance.
+- **Real-World Applications**: Examples of projects using these technologies.
 
 ---
 
-### Detailed Walkthrough of OpenLANE ASIC Design Flow
-A comprehensive walkthrough of the OpenLANE ASIC design flow, explaining each phase from RTL code to the GDSII layout for fabrication.
+### Introduction to OpenLANE Detailed ASIC Design Flow
+- **OpenLANE Flow**: A detailed guide through each step.
+- **Phases**:
+  - Synthesis
+  - Floorplanning
+  - Placement
+  - Routing
+  - Timing Analysis
+  - DRC (Design Rule Check)
+
+---
+
+### Getting Familiar with Open-Source EDA Tools
+- **Popular Tools**:
+  - OpenROAD
+  - Magic
+  - KLayout
+  - Netgen
+- **Installation and Setup**: How to get started with these tools.
+- **Tutorials**: Links and guides for learning how to use EDA tools effectively.
+
+---
+
+### Detailed Overview of the OpenLANE Directory Structure
+- **Key Directories**:
+  - `designs/`: Contains your design files.
+  - `scripts/`: Scripts used for automation.
+  - `pdks/`: Process Design Kits.
+  - `logs/`: Logs generated during the design flow.
+- **File Organization**: How files are managed throughout the OpenLANE flow.
+
+---
+
+### Design Preparation Step
+- **Initial Setup**: Steps to prepare a design for synthesis.
+- **Preparing RTL Files**: What files are needed and their structure.
+- **Tool Configuration**: Setting up tools and configurations for successful synthesis.
+
+---
+
+### Reviewing Files After Design Prep and Running Synthesis
+- **Files to Review**:
+  - Netlists
+  - Timing Reports
+  - Power Reports
+- **Synthesis Results**: Key metrics to focus on after synthesis.
+- **Verification**: How to verify that the design meets specifications.
+
+---
+
+### OpenLANE Project Git Link Description
+- **OpenLANE Repository**: Overview of the OpenLANE GitHub repository.
+- **Cloning the Repository**: How to clone and set up the OpenLANE project.
+- **Exploring the Project**: A brief guide to understanding the files and structure of the OpenLANE GitHub project.
+
+---
+
+### Steps to Characterize Synthesis Results
+- **Timing Analysis**: How to interpret timing reports.
+- **Power Analysis**: Understanding power consumption in the design.
+- **Area Analysis**: Measuring the chip area and optimizing layout.
+- **Verification**: Ensuring that the synthesized design matches the original RTL.
+
 
 
