@@ -24,7 +24,7 @@
 
 ## Introduction to QFN-48 Package, Chip, Pads, Core, Die, and IPs
 Arduino Board:- This is an arduino microcontroller board. The encircled area shows the chip(microprocessor) which is interfaced with other components of the board. The designing of this chip from abstract level all the way down to the fabrication is done by RTL to GDSll flow.Arduino consists of both a physical programmable circuit board (often referred to as a microcontroller) and a piece of software, or IDE (Integrated Development Environment) that runs on the computer, used to write and upload computer code to the physical board.
-<img src="https://github.com/Dayakar631/Nasscom_vsd_soc_design-_program/Nasscom_vsd_soc_design-_program/"
+<img src="https://github.com/Dayakar631/Nasscom_vsd_soc_design-_program/Screenshot 2024-10-05 001356.png" alt="something" />
 
 
 ## Introduction to RISC-V
