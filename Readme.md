@@ -51,6 +51,7 @@ Operating system handles input/output operations and allocate memory also it man
 Compiler takes the output from the operating system as C,C++,Java and convert them into intsructions. These instructions depends upon hardware.
 Assembler take the instructions from compiler and convert them into respective binary numbers. This binary language now send to hardware and hardware performs ouput based on the function it recieve and gives the output.
 Instruction acts as abstract interface between C-language and the hardware.
+<img src="https://github.com/Dayakar631/Nasscom_vsd_soc_design-_program/blob/main/Screenshot 2024-10-05 235257.png?raw=true" alt="something" />
 
 ## Introduction to All Components of Open-Source Digital ASIC Design
 (Provide content here...)
