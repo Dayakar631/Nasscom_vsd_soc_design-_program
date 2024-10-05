@@ -1,4 +1,4 @@
-# DIGITAL VLSI SOC DESIGN AND PLANNING
+![image](https://github.com/user-attachments/assets/a3e23e15-0ec7-46fc-8484-852423271fa0)# DIGITAL VLSI SOC DESIGN AND PLANNING
 
 ## Day 1 - Inception of Open-Source EDA, OpenLANE, and Sky130 PDK
 
@@ -72,7 +72,24 @@ sky130_OSU (single cycle RV32i CPU) pipeline version can achieve more than 1 GHz
 Step 1. Synthesis:- In the synthesis, the design RTL is translated to a circuit out from the SCL. The resultant circuit is describes in HDL and usualy refered to the gate level netlist. the gate level netlist is functionaly equivelent to the RTL. "standard Cells" have regular layouts like Electrical. HDL,SPICE
 
 Step 2. Floor/Power Planning:-The main objective here is that to plan silicon area and distribute the power to the whole circuit. In the chip floor planning, the partition chip die between different system building blocks and place the i/o pads. In micro floor planning, we define the dimensions, pin locations, rows. In power planning, the power network is connstructed. tipically, the chip is power by multiple VDD and GND. so, total components are connected to power supply horizontaly and vertically by metal streps. here parallel structures are used to reduce the resistance. To address the electromagnetization problem, power distribution network uses upper metal leyers, which are thicker than lower metal layers. Hence have less resistance.
+<img src="https://github.com/Dayakar631/Nasscom_vsd_soc_design-_program/blob/main/Screenshot 2024-10-06 001914.png?raw=true" alt="something"/>
+Step 3. Placement:- In this process, we place the gate level netlist on the floor planning rows, alligned with the sites. cells should be placed very closed to eachother to reduce the interconnnect delay. Usually placement is done in 2 steps:
 
+Global placement:- It is very first stage of the placement where cells are placed inside the core area for the first time looking at the timing and congestion. Global Placement aims at generating a rough placement solution that may violate some placement constraints while maintaining a global view of the whole Netlist.
+
+Detailed placement:- In detailed placements, we determined the exact route and layers for each netlist. the objective of detailed placement is valid routing, minimize area and meet timing constrains. Additional objective is minimum via and less power.
+Step 4. Clock Tree Synthesis:- Before routing the signals, we have to route the clock. In the process of clock synthesis, we have distribute the clock to the every sequential elements. for example flipflops, registers, ADC, DAC ete. basically clock netwroks looks likes a tree. where the clock source is roots and the clock elements are end leaves. Synthesization should be done in a manner that with minimum skew and in a good shape.To minimize the clock skew by using the low-skew global routing resources for clock signals.Microsemi devices provide various types of global routing resources that significantly reduce skew.Usually a tree is a H tree, X tree etc.
+
+Step 5. Routing:- After routing the clock, the signal routing comes. Making physical connections between signal pins using metal layers are called Routing. Routing is the stage after CTS and optimization where exact paths for the interconnection of standard cells and macros and I/O pins are determined. There are two types of nets in VLSI systems that need special attention in routing:
+
+Clock nets Power/Ground nets The sky130 PDK defines the 6 routing leyers. the lowest leyer is called local interconnect layer (titanium nitride layer). Other five layers are alluminium layersIn the proccess of routing, metal trackes forms a routing grids and these grids are huge. so, devide and conquer approach is use for routing. The two types of routing is used:
+Step 6. Sign Off:- Once the routing is done, we can construct the final layout. This final layout will goes under the verification. Two types of verifications are there:
+
+Physical verification: Here design rule checking will done and it will check the final layout and owners layout Timing Verification: Here Static Timing Analysis will done.
+
+Global routing: Generates the routing guides
+
+Detailed Routing: Uses the routing guides to implement the actual wiring.
 ## Simplified RTL2GDS Flow
 (Provide content here...)
 
