@@ -68,6 +68,7 @@ process design rules: DRC, LVS, REX Digital standerd cell libreries i/o librerir
 intel: P4EE @3.46 GHz(Q4'o4)
 
 sky130_OSU (single cycle RV32i CPU) pipeline version can achieve more than 1 GHz clock.
+<img src="https://github.com/Dayakar631/Nasscom_vsd_soc_design-_program/blob/main/Screenshot 2024-10-06 001010.png?raw=true" alt="something" />
 
 ## Simplified RTL2GDS Flow
 (Provide content here...)
