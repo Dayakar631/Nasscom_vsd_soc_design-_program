@@ -135,13 +135,31 @@ Static Timing analysis(STA) It involves the interconnect RC Extraction(DEF2SPEF)
 
 Physical Verification (DRC and LVS) Magic is used for design Rules checking and SPICE Extraction from Layout. Magic and Netgen are used for LVS.
 ## OpenLANE Directory Structure in Detail
-(Provide content here...)
+Basic Linux Commands
+
+cd : opens the particular folder
+
+ls : lists the content of the folder
+
+pwd : shows the present working directory
+
+mkdir : to make a new directory
+
+command --help : shows the complete use that command
+
+clear : clears the terminal screen
+
+Here we are working in Sky130_fd_sc_hd PDK varient. where, "sky130" is process name or node name."fd" is a foundary name (skyWater foundary)."sc" means standerd cell librery files and the last one "hd" stands for high density(basically one type of varient).
+
+Sky130_fd_sc_hd varient contains many technology files like verilog, spice, techlef, meglef,mag,gds,cdl,lib,lef,etc. (techlef file contains the layer information).
 
 ## Design Preparation Step
-(Provide content here...)
+when we enter in the OpenLANE, we have to use flow.tcl because as a name says, it will goes with the flow using the script. And by using interactive switch, we will do step by step process. without interactive switch, it will run complete flow from RTL to GDSII. Now OpenLANE is open and we can see that prompt will change now.
 
 ## Review Files After Design Prep and Run Synthesis
-(Provide content here...)
+After completing the preparation, in the picorv32a file, the run terictory is created. Inside the folder, Today's date is created. so in this terictory some folders are available which is required for openlane.
+
+In the temp file, merged.lef file is available which was created in preparation time. if we open this merged.lef file, we get all the wire or layer level and cell level information.
 
 ## OpenLANE Project Git Link Description
 (Provide content here...)
