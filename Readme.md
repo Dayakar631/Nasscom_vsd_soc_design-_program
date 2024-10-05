@@ -55,7 +55,19 @@ Instruction acts as abstract interface between C-language and the hardware.
 <img src="https://github.com/Dayakar631/Nasscom_vsd_soc_design-_program/blob/main/Screenshot 2024-10-05 235257.png?raw=true" alt="something" />
 
 ## Introduction to All Components of Open-Source Digital ASIC Design
-(Provide content here...)
+To design Digital ASIC, few tools or things which are required from the day one. These are
+
+RTL Design EDA tools PDK data what is RTL design? In digital circuit design, register-transfer level (RTL) is a design abstraction which models a synchronous digital circuit in terms of the flow of digital signals (data) between hardware registers, and the logical operations performed on those signals.for this designs many open sorces are available. like, librecores.org, opencores.org, github.com, etc...
+
+What is EDA tools? The term Electronic Design Automation (EDA) refers to the tools that are used to design and verify integrated circuits (ICs), printed circuit boards (PCBs), and electronic systems, in general. many open sorces tools are available like Qflow, OpenROAD, OpenLANE, etc...
+
+What is PDK Data? PDK is process design kit. It is interface between FAB and design. This data is collections of files like,
+
+process design rules: DRC, LVS, REX Digital standerd cell libreries i/o librerirs etc..... which are used to model a fabrication process for the EDA tools used to design an ICs. for example, in 2020, google release the open source PDK for FOSS 130nm production with the skywater technology. But right now it is at cutting age of the 5 nm also. But in many applications, the advance node is not required, and the cost of advanced node is also high as compared to 130nm processors. This 130nm processors are also fast processor. for example,
+
+intel: P4EE @3.46 GHz(Q4'o4)
+
+sky130_OSU (single cycle RV32i CPU) pipeline version can achieve more than 1 GHz clock.
 
 ## Simplified RTL2GDS Flow
 (Provide content here...)
