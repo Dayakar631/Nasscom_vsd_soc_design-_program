@@ -31,7 +31,7 @@ chip components
 (2) Core: Place where all the logic gates are fixed.
 (3) Die: Present at the corner. it is the size of the entire chip.
 EX. RISC-V SoC:- It consist of SRAM,SOC,ADC,DAC,SPI these all are called foundary IP's.All devices depends upon foundary where all chips are fabricated using deposition and lithography techniques and so on.
-<img src="https://github.com/Dayakar631/Nasscom_vsd_soc_design-_program/blob/main/Screenshot 2024-10-05 001356.png?raw=true" alt="something" />
+<img src="https://github.com/Dayakar631/Nasscom_vsd_soc_design-_program/blob/main/Screenshot 2024-10-05 231805.png?raw=true" alt="something" />
 
 
 
