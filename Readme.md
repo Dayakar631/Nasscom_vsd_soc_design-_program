@@ -43,7 +43,14 @@ The instruction set is designed for a wide range of uses. The base instruction s
 <img src="https://github.com/Dayakar631/Nasscom_vsd_soc_design-_program/blob/main/Screenshot 2024-10-05 235556.png?raw=true" alt="something"/>
 
 ## From Software Applications to Hardware
-(Provide content here...)
+Here we will se how apps runs on the system?
+Application Software - System Software - Hardware chip
+Apps enters into a block of system software and system sodtware converts the entire program into binary language. There are some layers inside the system software whish are as follows
+Operating System, Compiler, Assembler
+Operating system handles input/output operations and allocate memory also it manage the low level system functions.
+Compiler takes the output from the operating system as C,C++,Java and convert them into intsructions. These instructions depends upon hardware.
+Assembler take the instructions from compiler and convert them into respective binary numbers. This binary language now send to hardware and hardware performs ouput based on the function it recieve and gives the output.
+Instruction acts as abstract interface between C-language and the hardware.
 
 ## Introduction to All Components of Open-Source Digital ASIC Design
 (Provide content here...)
