@@ -1,7 +1,6 @@
 # DIGITAL VLSI SOC DESIGN AND PLANNING
 
 ## Day 1 - Inception of Open-Source EDA, OpenLANE, and Sky130 PDK
-
 ### [1. How to Talk to Computers](#how-to-talk-to-computers)
 - [Introduction to QFN-48 Package, Chip, Pads, Core, Die, and IPs](#introduction-to-qfn-48-package-chip-pads-core-die-and-ips)
 - [Introduction to RISC-V](#introduction-to-risc-v)
