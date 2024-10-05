@@ -94,7 +94,22 @@ Detailed Routing: Uses the routing guides to implement the actual wiring.
 (Provide content here...)
 
 ## Introduction to OpenLANE and Strive Chipsets
-(Provide content here...)
+OPENLANE is an automated RTL to GDSII flow that is composed of several tools such as OpenROAD, Yosys, Magic, Netgen, Fault, CVC SPEF-Extractor, CU-GR, Klayout and a number of scripts used for design exploration and optimization. It is started as an Open-source flow for a true Open Source tape-out Experiment. striVe is a family of open everything SoCs: Open PDK, Open EDA, Open RTL
+
+striVe SoC Family
+The main goal of OPENLANE is to produce a clean GDSII with no human intervation (no-human-in-the-loop). here the meaning of clean is that:
+
+No LVS violations
+
+No DRC Violations
+
+No timing Violations
+
+OPENLANE is tuned for skyWter130nm open PDK. it can be used to harden Macros and chips.there is two mode of operation Autonomus : it is the push botton flow. with the push botton , it is a some time base design and due to this push botton, we get final GDSII
+
+interactive : here we can run comamds and steps one by one.
+
+It has large number of design examples(43 designs with their best configurations).
 
 ## Introduction to OpenLANE Detailed ASIC Design Flow
 (Provide content here...)
