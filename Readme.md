@@ -113,6 +113,7 @@ interactive : here we can run comamds and steps one by one.
 It has large number of design examples(43 designs with their best configurations).
 
 ## Introduction to OpenLANE Detailed ASIC Design Flow
+<img src="https://github.com/Dayakar631/Nasscom_vsd_soc_design-_program/blob/main/Screenshot 2024-10-06 130439.png?raw=true" alt="something" />
 The design exploration utility is also used for regression testing(CI). we run OpenLANE on ~ 70 designs and compare the results to the best known ones.
 
 DFT(Design for Test) it perform scan inserption, automatic test pattern generation, Test patterns compaction, Fault coverage, Fault simulation.After that physical implementation is done by OpenROAD app. physical implementation involves the several steps:
