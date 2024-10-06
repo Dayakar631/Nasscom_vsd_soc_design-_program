@@ -1,5 +1,4 @@
-# DIGITAL VLSI SOC DESIGN AND PLANNING
-
+# DIGITAL VLSI SOC DESIGN AND PLANNING 
 ## Day 1 - Inception of Open-Source EDA, OpenLANE, and Sky130 PDK
 
 ### [1. How to Talk to Computers](#1-how-to-talk-to-computers)
