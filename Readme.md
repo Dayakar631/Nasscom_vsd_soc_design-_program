@@ -69,6 +69,8 @@ intel: P4EE @3.46 GHz(Q4'o4)
 
 sky130_OSU (single cycle RV32i CPU) pipeline version can achieve more than 1 GHz clock.
 <img src="https://github.com/Dayakar631/Nasscom_vsd_soc_design-_program/blob/main/Screenshot 2024-10-06 001010.png?raw=true" alt="something" />
+
+## Simplified RTL2GDS Flow
 Step 1. Synthesis:- In the synthesis, the design RTL is translated to a circuit out from the SCL. The resultant circuit is describes in HDL and usualy refered to the gate level netlist. the gate level netlist is functionaly equivelent to the RTL. "standard Cells" have regular layouts like Electrical. HDL,SPICE
 
 Step 2. Floor/Power Planning:-The main objective here is that to plan silicon area and distribute the power to the whole circuit. In the chip floor planning, the partition chip die between different system building blocks and place the i/o pads. In micro floor planning, we define the dimensions, pin locations, rows. In power planning, the power network is connstructed. tipically, the chip is power by multiple VDD and GND. so, total components are connected to power supply horizontaly and vertically by metal streps. here parallel structures are used to reduce the resistance. To address the electromagnetization problem, power distribution network uses upper metal leyers, which are thicker than lower metal layers. Hence have less resistance.
@@ -90,8 +92,7 @@ Physical verification: Here design rule checking will done and it will check the
 Global routing: Generates the routing guides
 
 Detailed Routing: Uses the routing guides to implement the actual wiring.
-## Simplified RTL2GDS Flow
-(Provide content here...)
+<img src="https://github.com/Dayakar631/Nasscom_vsd_soc_design-_program/blob/main/Screenshot 2024-10-06 001010.png?raw=true" alt="something" />
 
 ## Introduction to OpenLANE and Strive Chipsets
 OPENLANE is an automated RTL to GDSII flow that is composed of several tools such as OpenROAD, Yosys, Magic, Netgen, Fault, CVC SPEF-Extractor, CU-GR, Klayout and a number of scripts used for design exploration and optimization. It is started as an Open-source flow for a true Open Source tape-out Experiment. striVe is a family of open everything SoCs: Open PDK, Open EDA, Open RTL
